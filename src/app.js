@@ -6,7 +6,6 @@ const forecast = require("./utils/weatherstack")
 
 const app = express()
 
-// console.log(__dirname)
 // console.log(path.join(__dirname, '../public'))
 const publicPath = path.join(__dirname, '../public')
 // console.log(__filename)
